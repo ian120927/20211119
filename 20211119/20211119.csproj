@@ -67,10 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ch5-10.aspx" />
+    <Content Include="ch5-9.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ch5-10.aspx.cs">
+      <DependentUpon>ch5-10.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ch5-10.aspx.designer.cs">
+      <DependentUpon>ch5-10.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ch5-9.aspx.cs">
+      <DependentUpon>ch5-9.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ch5-9.aspx.designer.cs">
+      <DependentUpon>ch5-9.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
